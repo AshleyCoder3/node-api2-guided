@@ -1,4 +1,4 @@
-const Dog = require('./dogs/dogs-model');
+const Dog = require('./dogs-model');
 const express = require("express")
 const router = express.Router()
 
@@ -6,7 +6,7 @@ const router = express.Router()
 // DOGS ENDPOINTS
 // DOGS ENDPOINTS
 // DOGS ENDPOINTS
-server.get('/api/dogs', (req, res) => {
+router.get('/api/dogs', (req, res) => {
   Dog.find()
     .then(dogs => {
       res.status(200).json(dogs);

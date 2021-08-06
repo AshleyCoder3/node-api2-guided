@@ -99,3 +99,5 @@ router.put('/api/adopters/:id', (req, res) => {
       });
     });
 });
+
+module.exports = router

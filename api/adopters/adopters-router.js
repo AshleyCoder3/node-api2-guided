@@ -8,6 +8,7 @@ const router = express.Router()
 router.get('/', (req, res) => {
   Adopter.find(req.query)
     .then(adopters => {
+      throw new Error("I died!")
       res.status(200).json(adopters);
     })
     .catch(error => {

@@ -10,9 +10,9 @@ In this project we will learn how to create a very simple Web API using `Node.js
 
 ## Project Setup
 
-- [ ] clone this repository.
-- [ ] **CD into the folder** where you cloned the repo.
-- [ ] type `npm i` to download dependencies.
+- [X] clone this repository.
+- [X] **CD into the folder** where you cloned the repo.
+- [X] type `npm i` to download dependencies.
 
 Please follow along as the instructor builds the API step by step:
 
